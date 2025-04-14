@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
-    <meta charset="UTF-8" />
-    <title>Reindirizzamento alla mappa</title>
-    <script>
-      window.location.href = "https://www.google.com/maps/d/viewer?mid=16qs0g3lTZt4pSpRS-metynZ_WfTEQGs";
-    </script>
+    <meta charset="UTF-8">
+    <title>Visualizza la mappa</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+      a {
+        padding: 1em 2em;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 1.2em;
+      }
+    </style>
   </head>
   <body>
-    <p>Reindirizzamento in corso... Se non vieni reindirizzato, <a href="https://www.google.com/maps/d/viewer?mid=16qs0g3lTZt4pSpRS-metynZ_WfTEQGs">clicca qui</a>.</p>
+    <div>
+      <h1>Apri la mappa</h1>
+      <p>Clicca il pulsante qui sotto per visualizzare la mappa nel browser.</p>
+      <a href="https://www.google.com/maps/d/viewer?mid=16qs0g3lTZt4pSpRS-metynZ_WfTEQGs" target="_blank">VAI ALLA MAPPA</a>
+    </div>
   </body>
 </html>
