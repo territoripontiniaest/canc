@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
-    <meta charset="UTF-8">
-    <title>Visualizza la mappa</title>
+    <meta charset="UTF-8" />
+    <title>Mappa Interattiva</title>
     <style>
-      body {
-        font-family: sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        text-align: center;
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
       }
-      a {
-        padding: 1em 2em;
-        background-color: #007BFF;
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        font-size: 1.2em;
+      iframe {
+        border: 0;
+        width: 100%;
+        height: 100%;
       }
     </style>
   </head>
   <body>
-    <div>
-      <h1>Apri la mappa</h1>
-      <p>Clicca il pulsante qui sotto per visualizzare la mappa nel browser.</p>
-      <a href="https://www.google.com/maps/d/viewer?mid=16qs0g3lTZt4pSpRS-metynZ_WfTEQGs" target="_blank">VAI ALLA MAPPA</a>
-    </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=16qs0g3lTZt4pSpRS-metynZ_WfTEQGs&ehbc=2E312F"></iframe>
   </body>
 </html>
